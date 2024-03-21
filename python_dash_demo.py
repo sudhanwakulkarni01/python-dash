@@ -7,11 +7,13 @@ Original file is located at
     https://colab.research.google.com/drive/1NA1GlXIhD8mxeHyqLthEHfY5Ib0PV8Th
 """
 
-!pip install jupyter-dash -q
+##!pip install jupyter-dash -q
 
 from dash import Dash, html
 
 app = Dash(__name__)
+
+server = app.server
 
 app.layout = html.Div([
     html.Div(children='Hello World')
