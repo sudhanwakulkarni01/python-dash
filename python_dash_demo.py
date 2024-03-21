@@ -27,7 +27,8 @@ from dash import Dash, html, dash_table
 import pandas as pd
 
 # Incorporate data
-df = pd.read_excel('/self_made_rough_data_for_python_dash_demo.xlsx')
+# df = pd.read_excel('/self_made_rough_data_for_python_dash_demo.xlsx')
+df = pd.read_excel('https://github.com/sudhanwakulkarni01/python-dash/blob/main/self_made_rough_data_for_python_dash_demo.xlsx')
 
 # Initialize the app
 
